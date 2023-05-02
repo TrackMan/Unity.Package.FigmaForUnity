@@ -47,8 +47,8 @@ II. Unity Side / Inspector
 
 III. Unity Side / Inside of the script
   1. To bind the script to the figma frame, Attributes are used.
-    - Add Uxml attribute. It should be put in front of the class declaration and be written as following: [Uxml("{pageName}/{frameName}")]. Example: [Uxml("MyFigmaPage/MyFirstFrame")]. This attribute binds the figma frame to this script
-    - Create fields and put Query attributes in front of them in order to bind specific UI elements to the fields in the script. Example: [Query("BlackRectangle")] VisualElement blackRectangle;
+	a. Add Uxml attribute. It should be put in front of the class declaration and be written as following: [Uxml("{pageName}/{frameName}")]. Example: [Uxml("MyFigmaPage/MyFirstFrame")]. This attribute binds the figma frame to this script
+	b. Create fields and put Query attributes in front of them in order to bind specific UI elements to the fields in the script. Example: [Query("BlackRectangle")] VisualElement blackRectangle;
 
 IV. Get back to Unity Editor and press 'Update UI' button. Specify the folder to save UXML if needed. Once update is done, you can launch the game and see imported frame on the screen.
 
