@@ -61,6 +61,7 @@ Cleanup figma parser. Regex.
 Known issues
 Roadmap
 localization...?
+кстати надо написать что мы храним токен в raw формате без криптования
 
 ## Limitations
 - Main Frame should have a unique name
