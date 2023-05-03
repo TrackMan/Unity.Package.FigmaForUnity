@@ -16,41 +16,41 @@ Features:
 
 ## Installation
 0. The following packages should be installed:
-  "org.nuget.newtonsoft.json": "13.0.1",
-  "com.modesttree.unity3dasyncawaitutil": "1.0.5",
-  "com.unity.vectorgraphics": "2.0.0-preview.20",
-  "com.trackman.commonutils": "3.6.0"
+- "org.nuget.newtonsoft.json": "13.0.1",
+- "com.modesttree.unity3dasyncawaitutil": "1.0.5",
+- "com.unity.vectorgraphics": "2.0.0-preview.20",
+- "com.trackman.commonutils": "3.6.0"
 
 1. Window -> Package Manager -> "+" -> Add package from git URL -> https://github.com/TrackMan/Unity.Package.FigmaForUnity
 
 2. Get your figma PAT
-  a. Login at https://www.figma.com/developers/api?fuid=797042793200923967#authentication
-  b. Press '+ Get personal access token'
-  c. Copy token, find Figma script in the Unity Inspector and paste the token
+    1. Login at https://www.figma.com/developers/api?fuid=797042793200923967#authentication
+    2. Press '+ Get personal access token'
+    3. Copy token, find Figma script in the Unity Inspector and paste the token
 
 ## How to use
 
-I. Figma side
+1. Figma side
 Figma has the current structure: Document (has a title in the URL) -> Page (where you group several frames) -> Frame (this is what you are going to improt into Unity)
-  1. Create frame (the structure could look like MyFigmaDocument/MyFigmaPage/MyFirstFrame)
-  2. Copy the title from the URL
+    1. Create frame (the structure could look like MyFigmaDocument/MyFigmaPage/MyFirstFrame)
+    2. Copy the title from the URL
 
-II. Unity Side / Inspector
-  1. Create variant of Figma prefab
-  2. Create essential assets for UI document component:
-    a. Create -> UI Toolkit -> Panel Settings Asset
-    b. Create -> UI Toolkit -> TSS Theme File
-    c. Create -> UI Toolkit -> Text Settings
-  Assign theme files and text settings to the panel settings asset.
-  3. Paste title from figma document over to Title field in Figma script.
-  4. Create script through which you want to manipulate with the imported frame
+2. Unity Side / Inspector
+    1. Create variant of Figma prefab
+    2. Create essential assets for UI document component:
+        1. Create -> UI Toolkit -> Panel Settings Asset
+        2. Create -> UI Toolkit -> TSS Theme File
+        3. Create -> UI Toolkit -> Text Settings
+        4. Assign theme files and text settings to the panel settings asset.
+    3. Paste title from figma document over to Title field in Figma script.
+    4. Create script through which you want to manipulate with the imported frame
 
-III. Unity Side / Inside of the script
-  1. To bind the script to the figma frame, Attributes are used.
-  > Add Uxml attribute. It should be put in front of the class declaration and be written as following: [Uxml("{pageName}/{frameName}")]. Example: [Uxml("MyFigmaPage/MyFirstFrame")]. This attribute binds the figma frame to this script
-  > Create fields and put Query attributes in front of them in order to bind specific UI elements to the fields in the script. Example: [Query("BlackRectangle")] VisualElement blackRectangle;
+3. Unity Side / Inside of the script
+    1. To bind the script to the figma frame, Attributes are used.
+        1. Add Uxml attribute. It should be put in front of the class declaration and be written as following: [Uxml("{pageName}/{frameName}")]. Example: [Uxml("MyFigmaPage/MyFirstFrame")]. This attribute binds the figma frame to this script
+        2. Create fields and put Query attributes in front of them in order to bind specific UI elements to the fields in the script. Example: [Query("BlackRectangle")] VisualElement blackRectangle;
 
-IV. Get back to Unity Editor and press 'Update UI' button. Specify the folder to save UXML if needed. Once update is done, you can launch the game and see imported frame on the screen.
+4. Get back to Unity Editor and press 'Update UI' button. Specify the folder to save UXML if needed. Once update is done, you can launch the game and see imported frame on the screen.
 
 You can find samples in the ~Samples folder.
 
