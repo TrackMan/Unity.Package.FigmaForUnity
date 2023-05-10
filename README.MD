@@ -31,11 +31,22 @@ Token is being kept in the raw format.
 
 ## How to use
 
+### Figma Prefab
+Figma prefab...
+
 ### Attributes
-Attributes
+Attributes...
+
+#### This is test thing
+
+### Scripts Filtering
+Scripts Filtering...
+
+### Image Filtering
+Image Filtering...
 
 ## TODO
-- Cleanup figma parser. Regex.
+- Cleanup figma parser. Regex
 - Known issues
 - Roadmap
 - Localization
@@ -49,7 +60,9 @@ Attributes
 - Cannot mix horizontal center and vertical center elements within the same parent (will fallback to center-center)
 - Circles should be implemented through rectangles instead of ellipses (for better visuals) ??? check
 
-## Best practice
+## Best practices
 - Keep it stupid simple
 - Hierarchy of elements should be as simple as possible and have proper naming (not Frame 4815162342)
+
+# E N J O Y !
 
