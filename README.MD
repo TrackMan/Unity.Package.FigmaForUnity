@@ -27,6 +27,7 @@ Unity -> Window -> Package Manager -> "+" -> Add package from git URL -> https:/
 - Login at https://www.figma.com/developers/api?fuid=797042793200923967#authentication
 - Press '+ Get personal access token'
 - Copy token, find Figma script in the Unity Inspector and paste the token
+Token is being kept in the raw format.
 
 ## How to use
 
@@ -34,11 +35,10 @@ Unity -> Window -> Package Manager -> "+" -> Add package from git URL -> https:/
 Attributes
 
 ## TODO
-Cleanup figma parser. Regex.
-Known issues
-Roadmap
-localization...?
-кстати надо написать что мы храним токен в raw формате без криптования
+- Cleanup figma parser. Regex.
+- Known issues
+- Roadmap
+- Localization
 
 ## Limitations
 - Main Frame should have a unique name
