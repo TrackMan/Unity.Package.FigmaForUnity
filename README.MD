@@ -32,7 +32,7 @@ Token is being kept in the raw format.
 ## How to use
 
 ### Figma Prefab
-![image](https://ibb.co/17hNq9k)
+![image](https://trackman-my.sharepoint.com/:i:/p/ada/EdQKwK2vlzFPprnQxHRfPIMBzHF-LP4oPVcBC-GUCw0kjQ?e=lheq2p)
 
 ### Frame Script Anatomy
 Frame...
