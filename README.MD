@@ -70,6 +70,7 @@ public UxmlAttribute(string root = default, UxmlDownloadImages imageFiltering = 
 * **imageFiltering.** Which type images should be downloaded. Example: UxmlDownloadImages.Everything
 * **typeIdentification.** By which way element types should be defined. Example: UxmlElementTypeIdentification.ByElementType
 * **preserve**. Root folders of additional content frames. Example: "SamplePage/Content"
+  
 **Query attribute**
 ```csharp
 public QueryAttribute(string path, Clicked = nameof(Test), StartRoot = true, StopRoot = true, Nullable = true, Template = "SampleTemplate", UseTrickleDown = TrickleDown.TrickleDown)
