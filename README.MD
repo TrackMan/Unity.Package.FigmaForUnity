@@ -34,25 +34,16 @@ Token is being kept in the raw format.
 ### Figma Prefab
 ![image](https://github.com/anton-trackman/test/blob/main/FigmaPrefab.png)
 
-#### Panel Settings
-Important asset that makes it possible for Unity to display UXML-file based UI in the Game view
-#### Source Asset
-UXML asset that defines the structure of the UI
-#### Sort Order
-Defines the order of the UXML if there are multiple instances of the Panel Settigns in the project
+**Panel Settings.** Important asset that makes it possible for Unity to display UXML-file based UI in the Game view
+**Source Asset.** UXML asset that defines the structure of the UI
+**Sort Order.** Defines the order of the UXML if there are multiple instances of the Panel Settigns in the project
 
-#### Title
-The title that you copy from figma document URL
-#### Asset
-UXML asset which represents the same asset from UI document script (see avove)
-#### Update Buttons
-You can update UI either with downloading all images or not
-#### De-root and Re-order Hierarchy
-WIP
-#### Filter by Path
-Enabling this flag allows to download only those UI frames, whose scripts are attached to the prefab. Otherwise, all UI represented in the figma document will be downloaded
-#### Additional Fonts Directories
-Here you can add paths to the fonts which are used in UI
+**Title.** The title that you copy from figma document URL
+**Asset.** UXML asset which represents the same asset from UI document script (see avove)
+**Update Buttons.** You can update UI either with downloading all images or not
+**De-root and Re-order Hierarchy.** WIP
+**Filter by Path.** Enabling this flag allows to download only those UI frames, whose scripts are attached to the prefab. Otherwise, all UI represented in the figma document will be downloaded
+**Additional Fonts Directories.** Here you can add paths to the fonts which are used in UI
 
 ### Frame Script Anatomy
 Frame...
