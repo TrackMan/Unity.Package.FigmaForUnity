@@ -78,14 +78,13 @@ public QueryAttribute(string path, Clicked = nameof(Test), StartRoot = true, Sto
 * **path.** Represents the path to the element
 * **Clicked.** Defines the method which should be executed
 
-### Scripts Filtering
-Scripts Filtering...
-
 ### Image Filtering
 Image Filtering...
 
 ### Element Types
-Elements...
+* VisualElement
+* Button
+* ScrollView
 
 ### Custom Elements
 Custom elements...
