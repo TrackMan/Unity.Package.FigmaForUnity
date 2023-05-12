@@ -46,7 +46,19 @@ _
 * **Additional Fonts Directories.** Here you can add paths to the fonts which are used in UI
 
 ### Frame Script Anatomy
-Frame...
+```csharp
+[Uxml("SamplePage/SampleFrame", UxmlDownloadImages.Everything, UxmlElementTypeIdentification.ByElementType)]
+public class SampleFrame : Element
+{
+    #region Fields
+    [Query("SampleButton", Clicked = nameof(Test))] Button sampleButton;
+    #endregion
+
+    #region Methods
+    void Test() => Debug.Log("Test");
+    #endregion
+}
+```
 
 ### Attributes
 Attributes...
