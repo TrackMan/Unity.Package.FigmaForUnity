@@ -59,9 +59,17 @@ public class SampleFrame : Element
     #endregion
 }
 ```
+As you can see the simple frame script consist of: Uxml attribute, Frame class which inherits from Element, fields with Query attributes
 
 ### Attributes
-Attributes...
+**Uxml attribute**
+```csharp
+public UxmlAttribute(string root = default, UxmlDownloadImages imageFiltering = UxmlDownloadImages.Everything, UxmlElementTypeIdentification typeIdentification = UxmlElementTypeIdentification.ByName, params string[] preserve)
+```
+* **root.** Represents the path to the frame. Example: "SamplePage/SampleFrame"
+* **imageFiltering.** Which type images should be downloaded. Example: UxmlDownloadImages.Everything
+* **typeIdentification.** By which way element types should be defined. Example: UxmlElementTypeIdentification.ByElementType
+* **preserve**. Root folders of additional content frames. Example: "SamplePage/Content"
 
 #### This is test thing
 #### This is another test thing
