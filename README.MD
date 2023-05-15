@@ -78,16 +78,23 @@ public QueryAttribute(string path, Clicked = nameof(Test), StartRoot = true, Sto
 * **path.** Represents the path to the element
 * **Clicked.** Defines the method which should be executed
 
-### Image Filtering
-Image Filtering...
-
 ### Element Types
 * VisualElement
 * Button
 * ScrollView
 
 ### Custom Elements
-Custom elements...
+As addition to standard elements, you can create your own custom elements
+```csharp
+public class CustomButton : Button
+{
+    public new class UxmlFactory : UxmlFactory<CustomButton> { }
+
+    #region Fields
+    [Query("CustomButtonLabel")] Label label;
+    #endregion
+}
+```
 
 ## TODO
 - Cleanup figma parser. Regex
