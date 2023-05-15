@@ -41,7 +41,7 @@ _
 * **Title.** The title that you copy from figma document URL
 * **Asset.** UXML asset which represents the same asset from UI document script (see avove)
 * **Update Buttons.** You can update UI either with downloading all images or not
-* **De-root and Re-order Hierarchy.** WIP
+* **De-root and Re-order Hierarchy.** This will reorder all your frames according to each tlement's RootOrder property
 * **Filter by Path.** Enabling this flag allows to download only those UI frames, whose scripts are attached to the prefab. Otherwise, all UI represented in the figma document will be downloaded
 * **Additional Fonts Directories.** Here you can add paths to the fonts which are used in UI
 
