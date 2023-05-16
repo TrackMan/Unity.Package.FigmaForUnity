@@ -96,13 +96,7 @@ public class CustomButton : Button
 }
 ```
 
-## TODO
-- Cleanup figma parser. Regex
-- Known issues
-- Roadmap
-- Localization
-
-## Limitations
+## Limitations && Known issues
 - Main Frame should have a unique name
 - Colors and Icons that we will reuse should be put into a separate frame (as rectangles)
 - Vectors cannot be invisible, cannot have Image Fill, should be grouped into Union where possible
@@ -111,9 +105,13 @@ public class CustomButton : Button
 - Cannot mix horizontal center and vertical center elements within the same parent (will fallback to center-center)
 - Circles should be implemented through rectangles instead of ellipses (for better visuals) ??? check
 
+## Roadmap
+- Localization?
+
 ## Best practices
 - Keep it stupid simple
 - Hierarchy of elements should be as simple as possible and have proper naming (not Frame 4815162342)
 
-# E N J O Y !
+# TODO
+- Cleanup figma parser. Regex
 
