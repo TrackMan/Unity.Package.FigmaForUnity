@@ -96,9 +96,8 @@ public class CustomButton : Button
 }
 ```
 
-## Limitations && Known issues
+## Limitations & known issues
 - Main Frame should have a unique name
-- Colors and Icons that we will reuse should be put into a separate frame (as rectangles)
 - Vectors cannot be invisible, cannot have Image Fill, should be grouped into Union where possible
 - Fills can only have one Fill per element
 - Auto-Layout cannot have stroke borders
